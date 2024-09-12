@@ -2,7 +2,7 @@ import SwiftUI
 
 struct MyView<Model> : View where Model: ViewModelProtocol {
     
-    @ObservedObject var myViewModel : Model
+    @StateObject var myViewModel : Model
 
     var body: some View {
         VStack (spacing: 30) {
