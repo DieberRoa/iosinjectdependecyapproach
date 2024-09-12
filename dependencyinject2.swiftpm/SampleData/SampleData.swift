@@ -12,7 +12,7 @@ class SampleData {
         self.words.append("toy")
     }
     
-    func GetData() -> String {
+    func getData() -> String {
         return words[Int.random(in: 0...3)]
     }
     

@@ -11,8 +11,8 @@ class MyViewModel : ViewModelProtocol {
         self.data = Data(name: "", icon: Image(systemName: "nosign"))
     }
     
-    func DoStuff() {
-        self.myRepository.Get()
+    func doStuff() {
+        self.myRepository.get()
         
         let toCompare = self.myRepository.dao.externalDescription
         var image : Image = Image(systemName: "nosign")

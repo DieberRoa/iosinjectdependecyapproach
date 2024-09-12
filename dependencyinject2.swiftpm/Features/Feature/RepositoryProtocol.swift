@@ -4,6 +4,6 @@ protocol RepositoryProtocol {
     
     var dao : Dao { get set }
     
-    func Get()
+    func get()
     
 }

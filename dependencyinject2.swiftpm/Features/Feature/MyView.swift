@@ -29,7 +29,7 @@ struct MyView<T : ViewModelProtocol>: View {
     }
     
     public func refreshNameAndIcon() {
-        self.myViewModel.DoStuff()
+        self.myViewModel.doStuff()
     }
     
 }

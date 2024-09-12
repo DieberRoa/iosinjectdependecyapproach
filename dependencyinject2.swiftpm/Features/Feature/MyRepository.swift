@@ -8,8 +8,8 @@ class MyRepository : RepositoryProtocol {
         self.dao = Dao(externalDescription: "")
     }
     
-    func Get() {
-        self.dao.externalDescription = SampleData.shared.GetData()
+    func get() {
+        self.dao.externalDescription = SampleData.shared.getData()
     }
     
 }
